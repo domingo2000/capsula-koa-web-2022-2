@@ -2,7 +2,7 @@ import Router from '@koa/router';
 const router = new Router();
 
 router.get('/', (ctx, next) => {
-  ctx.body = "Hello world!"
+  ctx.body = "Hello world!";
 });
 
 router.post('root', '/', (ctx, next) => {

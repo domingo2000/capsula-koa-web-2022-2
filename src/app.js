@@ -12,7 +12,7 @@ const PORT = 3000;
 app.use(KoaLogger());
 
 // Parse the request body
-app.use(koaBody())
+app.use(koaBody());
 
 app.use(router.routes()).use(router.allowedMethods());
 
