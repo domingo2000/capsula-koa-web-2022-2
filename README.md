@@ -20,7 +20,7 @@
 
 
 Guión:
-1. En primer lugar se explica la iniciacion de un proyecto en node, la estructuración de las dependencias, `package.json` y setup incicial.
+1. En primer lugar se explica la iniciacion de un proyecto en node, la estructuración de las dependencias, `package.json` y setup inicial.
 
 2. Se instala koa, y se inicia un repo base en la carpeta `src`.
 
