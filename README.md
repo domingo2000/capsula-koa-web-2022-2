@@ -1,11 +1,13 @@
 # Capsula Koa básico
 
 ## Objetivos:
-1. Implementar un servidor web básico con un endpoint GET y POST.
-2. Explicar de manera simple cada una de las librerías usadas.
-3. Dar una estructura base de proyecto.
-4. Explicar scripts básicos para ejecutar el servidor.
-5. Refactorizar el código para modularizar las rutas.
+1. Repasar el patrón MVC y identificar que hace koa dentro del patrón.
+2. Explicar un flujo de una request en nuestra aplicación de forma teórica.
+3. Implementar un servidor web básico en koa.
+4. Explicar de manera simple cada una de las librerías usadas.
+5. Dar una estructura base de proyecto.
+6. Explicar scripts básicos para ejecutar el servidor.
+7. Refactorizar el código para modularizar las rutas.
 
 ## Requisitos funcionales:
 1. Se debe poder ejecutar el servidor con comandos de desarrollo y producción.
@@ -20,7 +22,9 @@
 
 
 Guión:
-1. En primer lugar se explica la iniciacion de un proyecto en node, la estructuración de las dependencias, `package.json` y setup inicial.
+0. Se explica de forma teórica el patrón MVC y se explica que es koa dentro de este.
+
+1. Se explica la iniciacion de un proyecto en node, la estructuración de las dependencias, `package.json` y setup inicial.
 
 2. Se instala koa, y se inicia un repo base en la carpeta `src`.
 
